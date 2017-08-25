@@ -3,7 +3,8 @@ case $(id -u) in
     0) 
         echo first: running as root
         echo doing the root tasks...
-        sudo apt-get install curl software-properties-common python-software-properties npm git -y
+        apt-get install curl software-properties-common python-software-properties npm git -y
+        npm config set bin-links false
         sudo -u ubuntu -i $0  # script calling itself as the vagrant user
         ;;
     *) 
