@@ -21,7 +21,7 @@ case $(id -u) in
         nvm alias default stable
 
         echo INSTALLING ANGULAR-CLI
-        npm install --save express
+        npm install --save express angularfire2 firebase
         npm install -g @angular/cli@latest typescript@latest --save
 
         echo STARTING HEROKU INSTALLATION
