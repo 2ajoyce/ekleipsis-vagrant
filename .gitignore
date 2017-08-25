@@ -1,3 +1,4 @@
-.DS_STORE
-.vagrant
-heroku_login.exp
+*
+!bootstrap.sh
+!Vagrantfile
+!README.md
