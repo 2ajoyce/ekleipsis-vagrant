@@ -27,6 +27,8 @@ This repo is primarily a container for the Vagrantfile and bootstrapping scripts
 
 * `vagrant ssh`
 
+* `cd hello-world`
+
 * `ng serve -host 192.168.33.10`
 
 * Navigate to `http://192.168.33.10:4200/` in your browser. 
