@@ -12,7 +12,7 @@ This repo is primarily a container for the Vagrantfile and bootstrapping scripts
 
 * Clone this repo(ekleipsis-vagrant) down to your local machine where you'd like to work.
 
-* Open a command prompt (or git bash) and navigate to the folder where you cloned the repo.
+* Open a command prompt (git bash didn't work for me as it seems to be handicapped on the work laptop) and navigate to the folder where you cloned the repo.
 
 * Run the command `vagrant up`
 
